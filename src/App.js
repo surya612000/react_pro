@@ -4,8 +4,6 @@ const userDetails = {
   name: 'surya',
   role: 'software',
 }
-const App = () => {
-  return <UserProfile userDetails={userDetails} />
-}
+const App = () => <UserProfile userDetails={userDetails} />
 
 export default App
